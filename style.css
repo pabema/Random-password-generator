@@ -1,0 +1,56 @@
+html{
+    height: 100vh;
+}
+
+body{
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center;
+    min-height:100vh;  
+    background-color: #011627;
+}
+
+.app{
+    margin: auto;
+    background-color: #F71735;
+    padding: 5rem 10rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.password{
+    font-size: 30px;
+}
+
+.submit{
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    /* padding: .4rem; */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.copy{
+    background-color: transparent;
+    font-size: 30px;
+    border: none;
+    /* padding: .4rem; */
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.item{
+    margin-top: 1rem;
+}

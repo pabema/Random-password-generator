@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password Generator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <form>
+            <input type="text" name="password" class="password" readonly>
+            <button type="submit" class="submit">🗘</button>
+            <button class="copy">🗎</button>
+            <div class="options">
+                <h3>Personaliza tu contraseña</h3>
+                <label><input type="number" name="length" class="length item" value="10"> Longitud</label>
+                <label><input type="checkbox" name="lower" class="lower item" checked> Incluye minúsculas</label>
+                <label><input type="checkbox" name="upper" class="upper item" checked> Incluye mayúsculas</label>
+                <label><input type="checkbox" name="numbers" class="numbers item" checked> Incluye números</label>
+                <label><input type="checkbox" name="symbols" class="symbols item" checked> Incluye símbolos</label>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
